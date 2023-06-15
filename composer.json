@@ -1,0 +1,24 @@
+{
+    "name": "evometric/jwt-login-redirect",
+    "autoload": {
+        "psr-4": {
+            "Evometric\\JwtLoginRedirect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rob Shepherd",
+            "email": "rob@evometric.com"
+        }
+    ],
+    "require": {
+        "php-open-source-saver/jwt-auth": "2.1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Evometric\\JwtLoginRedirect\\Providers\\JwtLoginRedirectProvider"
+            ]
+        }
+    }
+}
